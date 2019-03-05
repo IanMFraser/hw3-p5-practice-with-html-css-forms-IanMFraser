@@ -1,0 +1,31 @@
+html, body {
+    background-color: lavender;
+    text-align: center;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.rightTab{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.userRatings,
+input[type="checkbox"]{
+    float: left;
+    margin-right: 5px;
+}
+
+.radio, .checkbox{
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
